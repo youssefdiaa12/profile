@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Youssef diaa</title>
+    <title>Youssef Diaa Portfolio</title>
 </head>
-
 <body>
-
+    <!-- Header -->
     <header>
-        <a href="#" class="logo">Youssef</a>
+        <a href="#" class="logo">Youssef Diaa</a>
         <nav class="navigation">
+            <a href="#About">About</a>
             <a href="#Projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#Contact">Contact</a>
         </nav>
     </header>
-    <section class="main">
-        <div>
-            <h2>I'm Youssef Diaa<br>
-                <span>SoftWare Engineer</span></h2>
-            <h3>Problem solver</h3>
-            <a href="https://drive.google.com/file/d/1-vrpwo9CQsB2qcoWn7Xa9gwdKdag6HjR/view?usp=drivesdk" class="main-btn">About</a>
+
+    <!-- About Me Section -->
+    <section class="main" id="About" data-aos="fade-up" data-aos-duration="1000">
+        <div class="profile-info">
+            <h2><span>Software Engineer</span></h2>
+            <p class="about-description">
+                I am a Software Engineer with strong problem-solving skills, a solid foundation in Data Structures, Algorithms, and OOP, and the ability to work with various frameworks, including Flutter, Spring Boot, Laravel, and Django. My adaptability and focus on delivering scalable solutions make me a versatile professional.
+            </p>
+            <a href="https://drive.google.com/file/d/1jiLVSWapTx77BP-4t69oUsnqMseT7VqL/view?usp=drivesdk" class="main-btn">Download Resume</a>
             <div class="social">
                 <a href="https://www.facebook.com/youssef.dieaa"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/youssefdia2/"><i class="fa-brands fa-instagram"></i></a>
@@ -34,78 +38,98 @@
             </div>
         </div>
     </section>
-    <section class="projects" id="Projects">
-        <h2 class="title">Projects</h2>
-        <div class="content">
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work1.jpg"> </div>
-                <div class="project-info">
-                    <p class="project-category">SoftWare project</p>
-                    <strong class="project-title"><span>Fawry system</span>
-                <a href="https://github.com/Abdelrahmanm22/Fawry-System" class="more-details">More details</a>
-            </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work5.jpg"> </div>
-                <div class="project-info">
-                    <p class="project-category">connect-4 Game</p>
-                    <strong class="project-title"><span>AI-player</span>
-                <a href="https://www.linkedin.com/posts/activity-7062772183273455616-WXgR?utm_source=share&utm_medium=member_ios" class="more-details">More details</a>
-            </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work2.jpeg"> </div>
-                <div class="project-info">
-                    <p class="project-category">SoftWare project</p>
-                    <strong class="project-title"><span>Parking system</span>
-                <a href="https://github.com/youssefdiaa12/parking-system-project" class="more-details">More details</a>
-            </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work6.png"> </div>
-                <div class="project-info">
-                    <p class="project-category">information retrevial project</p>
-                    <strong class="project-title"><span>Web crawling</span>
-                <a href="https://github.com/youssefdiaa12/Cosine_similarity---inverted_index--postional_index-project" class="more-details">More details</a>
-            </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work3.png"> </div>
-                <div class="project-info">
-                    <p class="project-category">graphics design project</p>
-                    <strong class="project-title"><span>graphics shapes</span>
-                <a href="https://www.linkedin.com/posts/activity-7069619193205186560-_FuH?utm_source=share&utm_medium=member_ios" class="more-details">More details</a>
-            </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/download.png"> </div>
-                <div class="project-info">
-                    <p class="project-category">web project</p>
-                    <strong class="project-title"><span>Student affairs website</span>
-                <a href="https://github.com/Abdelrahmanm22/Fawry-System" class="more-details">More details</a>
-            </strong>
-                </div>
-            </div>
 
+  <!-- Projects Section -->
+  <section class="projects" id="Projects" data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="title">Projects</h2>
+    <div class="content">
+        <!-- Graduation Project -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="project-image">
+                <img src="images/1000_F_113723704_0ezuZkJ2PkFughBV9qNkcnVgg5G2aNAR.jpg" alt="Graduation Project">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Graduation Project</p>
+                <strong class="project-title">
+                    <span>Guarding a Child</span>
+                    <a href="https://github.com/youssefdiaa12/childern_finger" class="more-details">More details</a>
+                </strong>
+            </div>
         </div>
-    </section>
-    <section class="cards contact" id="contact">
-        <h2 class="title">Contact info</h2>
+
+        <!-- Existing Projects -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="project-image">
+                <img src="images/images.png" alt="Ordering System">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Software Project</p>
+                <strong class="project-title">
+                    <span>Ordering System</span>
+                    <a href="https://github.com/youssefdiaa12/Orders-and-Notifications-Management" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="project-image">
+                <img src="images/s-l1200.jpg" alt="Connect-4 AI">
+            </div>
+            <div class="project-info">
+                <p class="project-category">AI Game</p>
+                <strong class="project-title">
+                    <span>Connect-4 AI</span>
+                    <a href="https://www.linkedin.com/posts/activity-7062772183273455616-WXgR" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="project-image">
+                <img src="images/images (2).png" alt="Student Affairs Website">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Web Project</p>
+                <strong class="project-title">
+                    <span>Student Affairs Website</span>
+                    <a href="https://github.com/youssefdiaa12/student-affair-web-project" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="project-image">
+                <img src="images/How-to-Build-an-eCommerce-Mobile-App-in-2023.jpg" alt="E-commerce App">
+            </div>
+            <div class="project-info">
+                <p class="project-category">E-commerce Application</p>
+                <strong class="project-title">
+                    <span>E-commerce App</span>
+                    <a href="https://github.com/youssefdiaa12/ecommerce" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="project-image">
+                <img src="images/images (3).png" alt="Fawry System">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Software Project</p>
+                <strong class="project-title">
+                    <span>Fawry System</span>
+                    <a href="https://github.com/youssefdiaa12/Fawry-System" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+    </div>
+  </section>
+
+    <!-- Contact Section -->
+    <section class="cards contact" id="Contactid" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="title">Contact Info</h2>
         <div class="content">
             <div class="card">
                 <div class="icon">
-                    <i class="fas fa-phone"></i> </div>
+                    <i class="fas fa-phone"></i>
+                </div>
                 <div class="info">
                     <h3>Phone</h3>
                     <p>+01022017740</p>
@@ -113,7 +137,8 @@
             </div>
             <div class="card">
                 <div class="icon">
-                    <i class="fas fa-envelope"></i> </div>
+                    <i class="fas fa-envelope"></i>
+                </div>
                 <div class="info">
                     <h3>Email</h3>
                     <p>ysoltan713@gmail.com</p>
@@ -121,16 +146,26 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <p class="footer-title">Created by <span>Youssef Diaa</span> | &copy; 2023</p>
+
+    <!-- Footer -->
+    <footer class="footer" id="Contact">
+        <p class="footer-title">Created by <span>Youssef Diaa</span> | &copy; 2024</p>
         <div class="social">
             <a href="https://www.facebook.com/youssef.dieaa"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/youssefdia2/"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://github.com/youssefdiaa12"><i class="fa-brands fa-github"></i></a>
             <a href="https://www.linkedin.com/in/youssef-diaa-837a88235/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://codeforces.com/profile/dada22"><i class="fa-solid fa-code"></i></a>
         </div>
     </footer>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Initialize AOS after the page has loaded
+        AOS.init({
+            duration: 1000,  // Animation duration in ms
+            offset: 200,     // Start animation when the element is 200px from the top
+        });
+    </script>
+
+</body>
 </html>
