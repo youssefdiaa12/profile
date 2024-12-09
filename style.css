@@ -24,6 +24,51 @@ header {
     padding: 20px 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Personal Photo Section */
+.personal-photo {
+    background-color:transparent;
+    text-align: center;
+    padding: 80px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.photo-container {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background:transparent;
+
+    align-self: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.profile-container{
+    align-self: center;
+    width: 100%;
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-caption h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #24292f;
+}
+
+.photo-caption p {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+}
 
 .logo {
     text-decoration: none;
@@ -52,13 +97,17 @@ section {
 .social{
     padding-left: 30px;
     text-decoration: none;}
-
+    .profile-section {
+        display: flex;
+        align-items: center; /* Align items vertically in the center */
+        justify-content: center; /* Center the row horizontally on the screen */
+      }
 .main {
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     background: url(images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3AtNDQ4LXBhaS0wNjQuanBn.webp) no-repeat;
     background-size: cover;
     background-position: center;
